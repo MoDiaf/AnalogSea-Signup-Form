@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: cornflowerblue;
+	font-size: 25px;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+
+.fieldset {
+	border: 0;
+}
+
+.fieldset_legend {
+	
+}
+
+.AnalogSea {
+	margin: 30px auto;
+}
+
+form {
+	width: 400px;
+	background-color: white;
+	margin: 0 auto
+}
+
+input, button {
+	width: 320px;
+	border: 2px solid grey;
+	padding: 15px;
+}
+
+.submit_button {
+	background-color: mediumseagreen;
+}
+
