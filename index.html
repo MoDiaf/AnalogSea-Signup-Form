@@ -2,31 +2,36 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="AnalogSea, a cloud computing startup, Signup Form.">
+	<meta name="description" content="AnalogSea, a cloud computing startup, signup page.">
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>AnalogSea - Sign up</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+	<title>AnalogSea - Signup</title>
 </head>
 <body>
 	<header>
-		<a href="#"><img src="images/logo.png" height="35" class="AnalogSea"></a>
+		<a href="#"><img src="images/logo.png" height="35" class="logo_img"></a>
 	</header>
 	<main>
-		<form>
-			<fieldset class="fieldset">
-				<legend class="fieldset_legend">Sign up</legend>
 
-				<label>Email</label>
-				<input type="Email" name="" placeholder=""foo@bar.com required>
+		<section class="form_section">
+			<form class="form_box" action="/signup/" method="post">
+				<fieldset class="fieldset">
+					<legend class="fieldset_legend">Sign up</legend>
 
-				<label>Password</label>
-				<input type="Password" name="" placeholder="1234passw0rd" required>
-			</fieldset>
+					<label for="email">Email</label>
+					<input type="Email" name="" placeholder="foo@bar.com" id="email" required>
 
+					<label for="password">Password</label>
+					<input type="Password" name="" placeholder="1234password" id="password" required>
+				</fieldset>
 			<button class="submit_button" type="submit">Sign up</button>
 		</form>
-		<div class="login">
-			<p>Already have an account ? <a href="#">Log in</a></p>
-		</div>
+		</section>
+		
+		<section class="login_section">
+			<p class="login_message">Already have an account ? <a href="/login">Log in</a></p>
+		</section>
+
 	</main>
 </body>
 </html>

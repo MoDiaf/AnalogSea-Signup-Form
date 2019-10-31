@@ -5,17 +5,25 @@
 }
 
 html {
-	background-color: cornflowerblue;
+	background-color: dodgerblue;
 	font-size: 25px;
+	font-family: "Raleway", sans-serif;
+}
+
+a {
+	color: white;
 }
 
 header {
 	width: 100%;
 	text-align: center;
+	margin-top: 20px;
 }
 
 label {
 	display: block;
+	margin-bottom: 20px;
+	font-size: 20px;
 }
 
 .fieldset {
@@ -23,26 +31,61 @@ label {
 }
 
 .fieldset_legend {
-	
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 40px;
 }
 
-.AnalogSea {
+.logo_img {
 	margin: 30px auto;
 }
 
-form {
+.form_section {
 	width: 400px;
 	background-color: white;
-	margin: 0 auto
+	margin: 0 auto;
+	padding: 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.form_box {
+	width: 320px;
+	margin: 0 auto;
 }
 
 input, button {
 	width: 320px;
+	height: 55px;
 	border: 2px solid grey;
+	border-radius: 5px;
 	padding: 15px;
+	font-family : inherit;
+  	font-size   : 100%;
 }
+
+input {
+	margin-bottom: 20px;
+}
+
 
 .submit_button {
-	background-color: mediumseagreen;
+	background-color: #15cd72;
+	cursor: pointer;
+	color: white;
 }
 
+.submit_button:hover {
+	background-color: #11c46c;
+}
+
+.login_message {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.login_section {
+	text-align: center;
+}
